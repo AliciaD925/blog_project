@@ -55,7 +55,7 @@ form input {
   display: block;
   padding: 13px 13px;
   font-size: 1em;
-  margin: 5px auto 10px;
+  margin: 10px auto;
   border-radius: 3px;
   box-sizing: border-box;
   background: transparent;
@@ -66,17 +66,24 @@ form input:focus {
 }
 /* BUTTON DEFAULT */
 .btn {
+  display: block;
   color: white;
   background: #4a4e69;
   text-align: center;
   border: none;
-  border-radius: 5px;
-  display: block;
+  border-radius: 6px;
   letter-spacing: 0.1em;
   margin: 10px 0px;
   padding: 13px 20px;
   text-decoration: none;
   width: 200px;
+  font-family: "Playfair Display", Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+.btn:hover {
+  color: #f2e9e4;
+  background-color: #a4133c;
 }
 .container {
   width: 100%;
@@ -127,20 +134,37 @@ form input:focus {
 }
 /* BANNER */
 .banner {
-  display: flex;
   margin: 40px 0px;
+  text-align: center;
 }
 .welcome_msg {
-  float: left;
-  text-align: center;
-  width: 50%;
-  justify-content: center;
+  margin: 30px auto;
+}
+.login_div h2 {
+  color: #a4133c;
+  font-size: 30px;
+  font-family: "Playfair Display", Helvetica, sans-serif;
 }
 .login_div {
-  float: right;
-  width: 50%;
+  border: solid 1px #73707d;
+  border-radius: 6px;
+  box-shadow: -5px 6px 30px -5px #73707d;
+  margin: 20px 25%;
+  padding-bottom: 20px;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
 }
 
+#login,
+#sign_up {
+  color: #f2e9e4;
+  margin: 10px 15px;
+}
+#sign_up {
+  max-width: 160px;
+}
 /* FOOTER */
 .footer {
   position: absolute;
@@ -178,19 +202,20 @@ form input:focus {
   margin: 9px;
   min-height: 320px;
   float: left;
-  border-radius: 2px;
+  border-radius: 6px;
   border: 1px solid #b3b3b3;
   position: relative;
+  box-shadow: -5px 6px 30px -5px #73707d;
 }
 .content .post .category {
   margin-top: 0px;
   padding: 3px 8px;
-  color: #374447;
+  color: #4a4e69;
   background: white;
   display: inline-block;
   border-radius: 2px;
-  border: 1px solid #374447;
-  box-shadow: 3px 2px 2px;
+  border: 1px solid #4a4e69;
+  /* box-shadow: 3px 2px 2px; */
   position: absolute;
   left: 5px;
   top: 5px;
@@ -298,6 +323,16 @@ form input:focus {
   padding-left: 20px;
   background: #f9f9f9;
   transition: 0.1s;
+}
+/* REGISTER */
+.reg-form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+#reg_btn {
+  margin: 20px auto;
 }
 /* NOTIFICATION MESSAGES */
 .message {
