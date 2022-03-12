@@ -7,7 +7,6 @@
 <?php } else { ?>
     <div class="banner">
         <div class="welcome_msg">
-
             <h1>Today's Inspiration</h1>
             <p>
                 One day your life <br>
@@ -15,10 +14,6 @@
                 Make sure it's worth watching. <br>
                 <span>~ Gerard Way</span>
             </p>
-
-
-            <a href="register.php" class="btn">Join us!</a>
-
         </div>
 
         <div class="login_div">
@@ -29,7 +24,10 @@
                 </div>
                 <input type="text" name="username" value="<?php echo $username; ?>" placeholder="Username">
                 <input type="password" name="password" placeholder="Password">
-                <button class="btn" type="submit" name="login_btn">Sign in</button>
+                <div class="buttons">
+                    <button class="btn" id="login" type="submit" name="login_btn">Login</button>
+                    <a href="register.php" class="btn" id="sign_up">Sign up</a>
+                </div>
             </form>
         </div>
     </div>
