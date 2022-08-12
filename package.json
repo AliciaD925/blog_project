@@ -1,0 +1,24 @@
+{
+  "name": "complete-blog-php",
+  "version": "1.0.0",
+  "description": "my first blog",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o css/ --recursive",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AliciaD925/blog_project.git"
+  },
+  "author": "Alicia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AliciaD925/blog_project/issues"
+  },
+  "homepage": "https://github.com/AliciaD925/blog_project#readme",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "node-sass": "^7.0.1"
+  }
+}

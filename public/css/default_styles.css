@@ -1,0 +1,154 @@
+/****************
+*** DEFAULTS
+*****************/
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  height: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+  background-color: #e9ecef;
+}
+
+/* HEADINGS DEFAULT */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #343a40;
+  font-family: "Karla", Times, serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  margin-left: 40px;
+}
+
+hr {
+  margin: 10px 0px;
+  opacity: 0.25;
+}
+
+p {
+  font-family: "Karla", Times, serif;
+  font-size: 16;
+  color: #222;
+}
+
+.container {
+  width: 100%;
+  margin: 0px auto;
+}
+
+/* FORM DEFAULTS */
+form h2 {
+  margin: 25px auto;
+  text-align: center;
+  font-family: "Karla", Times, serif;
+}
+
+form input {
+  width: 40%;
+  display: block;
+  padding: 13px 13px;
+  font-size: 1em;
+  margin: 10px auto;
+  border-radius: 3px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: transparent;
+  border: 1px solid #3e606f;
+}
+
+form input:focus {
+  outline: none;
+}
+
+/* BUTTON DEFAULT */
+.btn {
+  display: block;
+  color: white;
+  background: #4a4e69;
+  text-align: center;
+  border: none;
+  border-radius: 6px;
+  letter-spacing: 0.1em;
+  margin: 10px 0px;
+  padding: 13px 20px;
+  text-decoration: none;
+  width: 200px;
+  font-family: "Playfair Display", Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.btn:hover {
+  color: #f2e9e4;
+  background-color: #a4133c;
+}
+
+/* NAVBAR */
+.navbar {
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: #4a4e69;
+  border-radius: 0px 0px 6px 6px;
+  padding-right: 50px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  float: right;
+}
+
+.navbar ul li {
+  float: left;
+  font-family: "Playfair Display", Helvetica, sans-serif;
+  font-size: 20px;
+  color: #f2e9e4;
+}
+
+.navbar ul li a {
+  display: block;
+  color: #f2e9e4;
+  text-align: center;
+  margin-top: 10px;
+  padding: 20px 28px;
+  text-decoration: none;
+}
+
+.navbar ul li a:hover {
+  color: #a4133c;
+  background-color: #f2e9e4;
+}
+
+/* LOGO */
+.navbar .logo_div {
+  float: left;
+  padding: 10px 40px;
+}
+
+.navbar .logo_div h1 {
+  color: #f2e9e4;
+  font-size: 3em;
+  letter-spacing: 5px;
+  font-weight: 100;
+  font-family: "Playfair Display", Helvetica, sans-serif;
+}
+/*# sourceMappingURL=default_styles.css.map */
